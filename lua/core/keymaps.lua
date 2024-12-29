@@ -14,6 +14,8 @@ vim.keymap.set('n', '<leader>fm', builtin.marks, {})
 vim.keymap.set('n', 'gr', '<cmd>Telescope lsp_references<cr>')
 vim.keymap.set('n', 'gd', '<cmd>Telescope lsp_definitions<cr>')
 
+vim.keymap.set('n', 'gn', vim.lsp.buf.rename)
+
 -- focus windows --
 vim.keymap.set('n', '<C-h>', '<C-w>h')
 vim.keymap.set('n', '<C-j>', '<C-w>j')

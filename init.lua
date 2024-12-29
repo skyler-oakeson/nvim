@@ -1,7 +1,6 @@
 vim.g.mapleader = ' '
 require('core/lazy')
 require('lazy').setup('plugins', opts)
--- require('lsp-config')
 require('core/keymaps')
 require('core/opt')
 
@@ -17,3 +16,11 @@ vim.cmd [[
   hi NormalFloat ctermbg=NONE ctermfg=NONE guibg=NONE
   hi TabLine ctermbg=None ctermfg=None guibg=None
 ]]
+
+vim.api.nvim_create_autocmd("TextYankPost", {
+  desc = "Highlight text on yank.",
+  group = vim.api.nvim_create_augroup("HighlightYank", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end
+})
