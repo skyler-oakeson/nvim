@@ -1,4 +1,5 @@
 {
+  "base16-nvim": { "branch": "master", "commit": "6ac181b5733518040a33017dde654059cd771b7c" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-cmdline": { "branch": "main", "commit": "d250c63aa13ead745e3a40f61fdd3470efde3923" },
   "cmp-fuzzy-buffer": { "branch": "main", "commit": "ada6352bc7e3c32471ab6c08f954001870329de1" },
@@ -11,7 +12,6 @@
   "lazy.nvim": { "branch": "main", "commit": "7e6c863bc7563efbdd757a310d17ebc95166cef3" },
   "lazydev.nvim": { "branch": "main", "commit": "8620f82ee3f59ff2187647167b6b47387a13a018" },
   "lualine.nvim": { "branch": "master", "commit": "640260d7c2d98779cab89b1e7088ab14ea354a02" },
-  "neopywal": { "branch": "master", "commit": "2d65d138463bbbe9d824b9bc1048ef1888017da6" },
   "nvim-autopairs": { "branch": "master", "commit": "ee297f215e95a60b01fde33275cc3c820eddeebe" },
   "nvim-cmp": { "branch": "main", "commit": "7e348da6e5085ac447144a2ef4b637220ba27209" },
   "nvim-lspconfig": { "branch": "master", "commit": "52302604e3c667cfdf33aadf89088e96eb3c5da3" },
